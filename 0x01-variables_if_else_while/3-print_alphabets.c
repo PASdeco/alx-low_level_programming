@@ -16,12 +16,12 @@ int main(void)
 	while
 		(d <= 'z') {
 			putchar(d);
-			d--;
+			d++;
 		}
 	while
 		(e <= 'Z') {
 			putchar(e);
-			e--;
+			e++;
 		}
 	putchar('\n');
 	return (0);
