@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	int a;
+	char a;
 
 	for (a = 1; a <= 100; a++)
 	{
@@ -27,7 +27,7 @@ int main(void)
 			printf("%d", a);
 		} else
 		{
-			printf("%d", a);
+			printf(" %d", a);
 		}
 	}
 	printf("\n");
