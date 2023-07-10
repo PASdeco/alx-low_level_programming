@@ -12,8 +12,8 @@ int _atoi(char *s)
 
 	while (!(s[a] <= '9' && s[a] >= '0') && s[a] != '\0')
 	{
-		if (s[a] == '_')
-			sign * -1;
+		if (s[a] == '-')
+			sign *= -1;
 		a++;
 	}
 	while (s[a] <= '9' && (s[a] >= '0' && s[a] != '\0'))
@@ -21,6 +21,6 @@ int _atoi(char *s)
 		res = (res * 10) + (s[a] - '0');
 		a++;
 	}
-	res * -sign;
+	res *= sign;
 	return (res);
 }
