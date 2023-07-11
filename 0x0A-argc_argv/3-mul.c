@@ -55,6 +55,8 @@ int _atoi(char *s)
 int main(int argc __attribute__((unused)), char *argv[])
 {
 	int output, put1, put2;
+
+	if (argc < 3 || argc > 3)
 	{
 		printf("Error\n");
 		return (1);
