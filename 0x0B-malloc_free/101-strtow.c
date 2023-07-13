@@ -12,7 +12,7 @@ int count_word(char *s)
 	word = 0;
 	b = 0;
 
-	for (a = 0;s[a] != '\0'; a++)
+	for (a = 0; s[a] != '\0'; a++)
 	{
 		if (s[a] == ' ')
 			word = 0;
@@ -43,7 +43,6 @@ char **strtow(char *str)
 	if (paschal == NULL)
 	if (paschal == NULL)
 	return (NULL);
-
 	for (c = 0; c <= length; c++)
 	{
 		if (str[c] == ' ' || str[c] == '\0')
