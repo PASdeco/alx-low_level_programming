@@ -6,6 +6,6 @@
  */
 int main(void)
 {
-	printf("%s\n". _file_);
+	printf("%s\n", __FILE__);
 	return (0);
 }
